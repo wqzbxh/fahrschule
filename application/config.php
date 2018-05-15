@@ -138,6 +138,10 @@ return [
         'taglib_begin' => '{',
         // 标签库标签结束标记
         'taglib_end'   => '}',
+        'layout_on'     =>  true,
+        // 设置布局入口文件
+        'layout_name'   =>  'Layout'.DS.'layout',
+        'layout_item'   =>  '{__CONTENT__}'
     ],
 
     // 视图输出字符串内容替换
